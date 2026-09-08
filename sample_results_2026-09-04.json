@@ -1,0 +1,300 @@
+{
+  "run_date": "2026-09-04",
+  "window_start": "illustrative",
+  "items": [
+    {
+      "id": "sample-wu-geoai",
+      "doi": "https://doi.org/10.21105/joss.09605",
+      "title": "GeoAI: A Python package for integrating artificial intelligence with geospatial data analysis and visualization",
+      "authors": [
+        "Qiusheng Wu"
+      ],
+      "date": "2026-02-03",
+      "year": 2026,
+      "abstract": "Open-source Python software for GeoAI analysis and visualization, with Jupyter-oriented examples and reusable workflows.",
+      "url": "https://joss.theoj.org/papers/10.21105/joss.09605",
+      "pdf_url": "",
+      "venue": "Journal of Open Source Software",
+      "citation_count": 0,
+      "open_access": true,
+      "source": "Illustrative web finding",
+      "matched_queries": [
+        "open source Python Jupyter geospatial reproducible",
+        "GeoAI geospatial artificial intelligence GIS"
+      ],
+      "interest_score": 63,
+      "prototype_score": 77,
+      "priority_score": 69,
+      "watch_person": "Qiusheng Wu",
+      "interest_hits": {
+        "health_spatial": [],
+        "geoai": [
+          "geoai",
+          "geospatial artificial intelligence"
+        ],
+        "population_mobility": [],
+        "spatial_methods": [],
+        "privacy_equity": [],
+        "earth_observation": [],
+        "open_reproducible": [
+          "jupyter",
+          "open source",
+          "package",
+          "python",
+          "reproducible",
+          "software",
+          "workflow"
+        ]
+      },
+      "open_data_hits": [],
+      "implementation_hits": [
+        "jupyter",
+        "open source",
+        "package",
+        "python",
+        "software",
+        "workflow"
+      ],
+      "method_hits": [
+        "workflow"
+      ],
+      "heavy_compute_hits": [],
+      "ignore_hits": [],
+      "mvp_hint": "Make a low-compute surrogate: reuse published embeddings/features or a tiny sample rather than training a large model."
+    },
+    {
+      "id": "sample-tatem-2026",
+      "doi": "https://doi.org/10.1073/pnas.2413993123",
+      "title": "Advances in small area population estimation in the absence of national census data",
+      "authors": [
+        "Andrew J Tatem",
+        "Gianluca Boo",
+        "Heather R Chamberlain",
+        "Christopher C Nnanatu"
+      ],
+      "date": "2026-08-21",
+      "year": 2026,
+      "abstract": "Recent methods for small-area population estimation combine geospatial covariates and open population mapping workflows where census data are incomplete or absent.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42627843/",
+      "pdf_url": "",
+      "venue": "PNAS",
+      "citation_count": 0,
+      "open_access": false,
+      "source": "Illustrative web finding",
+      "matched_queries": [
+        "population mapping mobility accessibility human settlement"
+      ],
+      "interest_score": 72,
+      "prototype_score": 44,
+      "priority_score": 60,
+      "watch_person": "Andrew J Tatem",
+      "interest_hits": {
+        "health_spatial": [
+          "accessibility"
+        ],
+        "geoai": [],
+        "population_mobility": [
+          "accessibility",
+          "human settlement",
+          "mobility",
+          "population mapping",
+          "small area"
+        ],
+        "spatial_methods": [],
+        "privacy_equity": [],
+        "earth_observation": [],
+        "open_reproducible": [
+          "workflow"
+        ]
+      },
+      "open_data_hits": [
+        "census"
+      ],
+      "implementation_hits": [
+        "workflow"
+      ],
+      "method_hits": [
+        "estimation",
+        "method",
+        "workflow"
+      ],
+      "heavy_compute_hits": [],
+      "ignore_hits": [],
+      "mvp_hint": "Recreate a small-area estimator with WorldPop/GHSL/census-style open data for one county or district."
+    },
+    {
+      "id": "sample-heat-geoai",
+      "doi": "https://doi.org/10.3389/fenvs.2026.1770260",
+      "title": "A foundation-model GeoAI framework for continuous heat and health risk mapping",
+      "authors": [
+        "Daniel P. Johnson"
+      ],
+      "date": "2026-02-23",
+      "year": 2026,
+      "abstract": "A multimodal GeoAI pipeline combines atmospheric reanalysis and Earth observation for high-resolution urban heat and health-risk mapping using foundation models.",
+      "url": "https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2026.1770260/full",
+      "pdf_url": "",
+      "venue": "Frontiers in Environmental Science",
+      "citation_count": 0,
+      "open_access": true,
+      "source": "Illustrative web finding",
+      "matched_queries": [
+        "geospatial foundation model spatial explicitness",
+        "spatial epidemiology disease mapping public health GIS"
+      ],
+      "interest_score": 72,
+      "prototype_score": 35,
+      "priority_score": 56,
+      "watch_person": "",
+      "interest_hits": {
+        "health_spatial": [
+          "disease mapping",
+          "health risk",
+          "public health",
+          "spatial epidemiology"
+        ],
+        "geoai": [
+          "foundation model",
+          "geoai",
+          "geospatial foundation",
+          "multimodal"
+        ],
+        "population_mobility": [],
+        "spatial_methods": [],
+        "privacy_equity": [],
+        "earth_observation": [
+          "earth observation",
+          "urban heat"
+        ],
+        "open_reproducible": []
+      },
+      "open_data_hits": [
+        "dem"
+      ],
+      "implementation_hits": [],
+      "method_hits": [
+        "framework",
+        "model",
+        "pipeline"
+      ],
+      "heavy_compute_hits": [
+        "foundation model"
+      ],
+      "ignore_hits": [],
+      "mvp_hint": "Test the method on an open or synthetic disease-count grid; compare baseline and spatially aware results."
+    },
+    {
+      "id": "sample-botswana-activity",
+      "doi": "https://doi.org/10.1186/s12942-026-00467-5",
+      "title": "Using genomic epidemiology and geographic activity spaces to investigate tuberculosis outbreaks in Botswana",
+      "authors": [
+        "Chelsea R Baker",
+        "Ivan Barilar",
+        "Leonardo S de Araujo",
+        "Daniel M Parker",
+        "James L Tobias"
+      ],
+      "date": "2026-04-03",
+      "year": 2026,
+      "abstract": "A spatial epidemiology study combines genomic epidemiology with geographic activity spaces to investigate tuberculosis outbreaks.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41933361/",
+      "pdf_url": "",
+      "venue": "International Journal of Health Geographics",
+      "citation_count": 0,
+      "open_access": true,
+      "source": "Illustrative web finding",
+      "matched_queries": [
+        "spatial epidemiology disease mapping public health GIS",
+        "population mapping mobility accessibility human settlement"
+      ],
+      "interest_score": 54,
+      "prototype_score": 30,
+      "priority_score": 44,
+      "watch_person": "",
+      "interest_hits": {
+        "health_spatial": [
+          "accessibility",
+          "disease mapping",
+          "outbreak",
+          "public health",
+          "spatial epidemiology",
+          "tuberculosis"
+        ],
+        "geoai": [],
+        "population_mobility": [
+          "accessibility",
+          "activity space",
+          "human settlement",
+          "mobility",
+          "population mapping"
+        ],
+        "spatial_methods": [],
+        "privacy_equity": [],
+        "earth_observation": [],
+        "open_reproducible": []
+      },
+      "open_data_hits": [
+        "dem"
+      ],
+      "implementation_hits": [],
+      "method_hits": [],
+      "heavy_compute_hits": [],
+      "ignore_hits": [],
+      "mvp_hint": "Recreate a small-area estimator with WorldPop/GHSL/census-style open data for one county or district."
+    },
+    {
+      "id": "sample-geofm",
+      "doi": "https://doi.org/10.3233/FAIA260468",
+      "title": "Towards GeoAI Foundation Models: A Multimodal Learning Framework with Geospatial Intelligence",
+      "authors": [
+        "Meiliu Wu",
+        "Qunying Huang",
+        "Anahid Basiri",
+        "Yunus Serhat Bicakci",
+        "Joseph Shingleton"
+      ],
+      "date": "2026-07-05",
+      "year": 2026,
+      "abstract": "A multimodal learning framework explores geospatial intelligence and the design of GeoAI foundation-model approaches.",
+      "url": "https://journals.sagepub.com/doi/10.3233/FAIA260468",
+      "pdf_url": "",
+      "venue": "Frontiers in Artificial Intelligence and Applications",
+      "citation_count": 0,
+      "open_access": false,
+      "source": "Illustrative web finding",
+      "matched_queries": [
+        "geospatial foundation model spatial explicitness"
+      ],
+      "interest_score": 25,
+      "prototype_score": 21,
+      "priority_score": 23,
+      "watch_person": "",
+      "interest_hits": {
+        "health_spatial": [],
+        "geoai": [
+          "foundation model",
+          "geoai",
+          "geospatial foundation",
+          "multimodal"
+        ],
+        "population_mobility": [],
+        "spatial_methods": [],
+        "privacy_equity": [],
+        "earth_observation": [],
+        "open_reproducible": []
+      },
+      "open_data_hits": [],
+      "implementation_hits": [],
+      "method_hits": [
+        "framework",
+        "model"
+      ],
+      "heavy_compute_hits": [
+        "foundation model"
+      ],
+      "ignore_hits": [],
+      "mvp_hint": "Make a low-compute surrogate: reuse published embeddings/features or a tiny sample rather than training a large model."
+    }
+  ],
+  "note": "Illustrative sample assembled from a few public web findings; not a complete daily scan."
+}

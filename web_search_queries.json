@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "linkedin_index",
+    "query": "site:linkedin.com/posts \"Frank Tanser\" geospatial OR GIS OR GeoAI"
+  },
+  {
+    "kind": "scholar_web",
+    "query": "\"Frank Tanser\" geospatial spatial GIS 2026"
+  },
+  {
+    "kind": "linkedin_index",
+    "query": "site:linkedin.com/posts \"Andrew J Tatem\" geospatial OR GIS OR GeoAI"
+  },
+  {
+    "kind": "scholar_web",
+    "query": "\"Andrew J Tatem\" geospatial spatial GIS 2026"
+  },
+  {
+    "kind": "linkedin_index",
+    "query": "site:linkedin.com/posts \"Andy Tatem\" geospatial OR GIS OR GeoAI"
+  },
+  {
+    "kind": "scholar_web",
+    "query": "\"Andy Tatem\" geospatial spatial GIS 2026"
+  },
+  {
+    "kind": "linkedin_index",
+    "query": "site:linkedin.com/posts \"Qiusheng Wu\" geospatial OR GIS OR GeoAI"
+  },
+  {
+    "kind": "scholar_web",
+    "query": "\"Qiusheng Wu\" geospatial spatial GIS 2026"
+  },
+  {
+    "kind": "linkedin_index",
+    "query": "site:linkedin.com/posts \"Diego F Cuadros\" geospatial OR GIS OR GeoAI"
+  },
+  {
+    "kind": "scholar_web",
+    "query": "\"Diego F Cuadros\" geospatial spatial GIS 2026"
+  },
+  {
+    "kind": "linkedin_index",
+    "query": "site:linkedin.com/posts \"Diego Cuadros\" geospatial OR GIS OR GeoAI"
+  },
+  {
+    "kind": "scholar_web",
+    "query": "\"Diego Cuadros\" geospatial spatial GIS 2026"
+  },
+  {
+    "kind": "researchgate_index",
+    "query": "site:researchgate.net/publication GeoAI geospatial artificial intelligence GIS"
+  },
+  {
+    "kind": "researchgate_index",
+    "query": "site:researchgate.net/publication geospatial foundation model spatial explicitness"
+  },
+  {
+    "kind": "researchgate_index",
+    "query": "site:researchgate.net/publication spatial epidemiology disease mapping public health GIS"
+  },
+  {
+    "kind": "researchgate_index",
+    "query": "site:researchgate.net/publication population mapping mobility accessibility human settlement"
+  },
+  {
+    "kind": "researchgate_index",
+    "query": "site:researchgate.net/publication geoprivacy differential privacy spatial data"
+  },
+  {
+    "kind": "researchgate_index",
+    "query": "site:researchgate.net/publication spatial statistics Bayesian point process hotspot cluster"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Example public post or publication title",
+    "url": "https://example.org/item",
+    "snippet": "A short indexed snippet describing the method, dataset, or code release.",
+    "date": "2026-09-04",
+    "author": "Example Researcher",
+    "source": "Web index",
+    "open_access": true
+  }
+]

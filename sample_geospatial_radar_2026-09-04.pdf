@@ -1,0 +1,88 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R /Annots [7 0 R 8 0 R 9 0 R 10 0 R 11 0 R] >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3536 >>
+stream
+BT /F2 16.0 Tf 1 0 0 1 42.0 752.0 Tm (GEOSPATIAL RESEARCH RADAR) Tj ET
+BT /F1 9.0 Tf 1 0 0 1 42.0 732.0 Tm (Morning brief | 2026-09-04) Tj ET
+BT /F1 8.0 Tf 1 0 0 1 42.0 718.0 Tm (Priority = 58% interest fit + 42% MVP/Jupyter prototypeability) Tj ET
+0.6 w 0.75 G 42.0 698.0 m 570.0 698.0 l S
+BT /F2 7.6 Tf 1 0 0 1 42.0 683.0 Tm (#1  PRIORITY 69  |  MVP 77  |  2026-02-03  |  WATCH: Qiusheng Wu) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.0 672.0 Tm (GeoAI: A Python package for integrating artificial intelligence with geospatial data) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.0 661.0 Tm (analysis and visualization) Tj ET
+BT /F1 7.1 Tf 1 0 0 1 42.0 650.0 Tm (Qiusheng Wu | Journal of Open Source Software | Illustrative web finding) Tj ET
+BT /F1 7.5 Tf 1 0 0 1 50.0 641.0 Tm (MVP: Make a low-compute surrogate: reuse published embeddings/features or a tiny sample rather than training a large) Tj ET
+BT /F1 7.5 Tf 1 0 0 1 50.0 632.0 Tm (model.) Tj ET
+BT /F2 7.6 Tf 1 0 0 1 42.0 617.0 Tm (#2  PRIORITY 60  |  MVP 44  |  2026-08-21  |  WATCH: Andrew J Tatem) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.0 606.0 Tm (Advances in small area population estimation in the absence of national census data) Tj ET
+BT /F1 7.1 Tf 1 0 0 1 42.0 595.0 Tm (Andrew J Tatem, Gianluca Boo, Heather R Chamberlain, Christopher C Nnanatu | PNAS | Illustrative web finding) Tj ET
+BT /F1 7.5 Tf 1 0 0 1 50.0 586.0 Tm (MVP: Recreate a small-area estimator with WorldPop/GHSL/census-style open data for one county or district.) Tj ET
+BT /F2 7.6 Tf 1 0 0 1 42.0 571.0 Tm (#3  PRIORITY 56  |  MVP 35  |  2026-02-23) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.0 560.0 Tm (A foundation-model GeoAI framework for continuous heat and health risk mapping) Tj ET
+BT /F1 7.1 Tf 1 0 0 1 42.0 549.0 Tm (Daniel P. Johnson | Frontiers in Environmental Science | Illustrative web finding) Tj ET
+BT /F1 7.5 Tf 1 0 0 1 50.0 540.0 Tm (MVP: Test the method on an open or synthetic disease-count grid; compare baseline and spatially aware results.) Tj ET
+BT /F2 7.6 Tf 1 0 0 1 42.0 525.0 Tm (#4  PRIORITY 44  |  MVP 30  |  2026-04-03) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.0 514.0 Tm (Using genomic epidemiology and geographic activity spaces to investigate tuberculosis) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.0 503.0 Tm (outbreaks in Botswana) Tj ET
+BT /F1 7.1 Tf 1 0 0 1 42.0 492.0 Tm (Chelsea R Baker, Ivan Barilar, Leonardo S de Araujo, Daniel M Parker et al. | International Journal of Health) Tj ET
+BT /F1 7.5 Tf 1 0 0 1 50.0 483.0 Tm (MVP: Recreate a small-area estimator with WorldPop/GHSL/census-style open data for one county or district.) Tj ET
+BT /F2 7.6 Tf 1 0 0 1 42.0 468.0 Tm (#5  PRIORITY 23  |  MVP 21  |  2026-07-05) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.0 457.0 Tm (Towards GeoAI Foundation Models: A Multimodal Learning Framework with Geospatial) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.0 446.0 Tm (Intelligence) Tj ET
+BT /F1 7.1 Tf 1 0 0 1 42.0 435.0 Tm (Meiliu Wu, Qunying Huang, Anahid Basiri, Yunus Serhat Bicakci et al. | Frontiers in Artificial Intelligence and) Tj ET
+BT /F1 7.5 Tf 1 0 0 1 50.0 426.0 Tm (MVP: Make a low-compute surrogate: reuse published embeddings/features or a tiny sample rather than training a large) Tj ET
+BT /F1 7.5 Tf 1 0 0 1 50.0 417.0 Tm (model.) Tj ET
+0.4 w 0.82 G 42.0 55.0 m 570.0 55.0 l S
+BT /F1 6.8 Tf 1 0 0 1 42.0 42.0 Tm (Sources: OpenAlex + Semantic Scholar + optional external web-index JSON. Titles are clickable.) Tj ET
+BT /F1 6.8 Tf 1 0 0 1 42.0 33.0 Tm (LinkedIn/Google Scholar direct scraping is intentionally excluded; use sanctioned alerts/APIs or an external search index bridge.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42.0 651.0 570.0 684.0] /Border [0 0 0] /A << /S /URI /URI (https://joss.theoj.org/papers/10.21105/joss.09605) >> >>
+endobj
+8 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42.0 596.0 570.0 618.0] /Border [0 0 0] /A << /S /URI /URI (https://pubmed.ncbi.nlm.nih.gov/42627843/) >> >>
+endobj
+9 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42.0 550.0 570.0 572.0] /Border [0 0 0] /A << /S /URI /URI (https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2026.1770260/full) >> >>
+endobj
+10 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42.0 493.0 570.0 526.0] /Border [0 0 0] /A << /S /URI /URI (https://pubmed.ncbi.nlm.nih.gov/41933361/) >> >>
+endobj
+11 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42.0 436.0 570.0 469.0] /Border [0 0 0] /A << /S /URI /URI (https://journals.sagepub.com/doi/10.3233/FAIA260468) >> >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000299 00000 n 
+0000000396 00000 n 
+0000000498 00000 n 
+0000004086 00000 n 
+0000004256 00000 n 
+0000004418 00000 n 
+0000004638 00000 n 
+0000004801 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+4974
+%%EOF
