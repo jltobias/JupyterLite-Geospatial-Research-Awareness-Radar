@@ -1,0 +1,79 @@
+name: Build and Deploy JupyterLite
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install build dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Validate Python and notebook JSON
+        run: |
+          python -m py_compile radar_core.py run_radar.py
+          python -m json.tool 00_profile_and_queries.ipynb > /dev/null
+          python -m json.tool 01_morning_scan.ipynb > /dev/null
+          python -m json.tool 02_one_page_report.ipynb > /dev/null
+          python -m json.tool 03_web_index_bridge.ipynb > /dev/null
+          python -m json.tool radar_config.json > /dev/null
+          python -m json.tool web_hits_TEMPLATE.json > /dev/null
+
+      - name: Stage JupyterLite content
+        run: |
+          mkdir -p content
+          cp README.md content/
+          cp 00_profile_and_queries.ipynb content/
+          cp 01_morning_scan.ipynb content/
+          cp 02_one_page_report.ipynb content/
+          cp 03_web_index_bridge.ipynb content/
+          cp radar_core.py content/
+          cp radar_config.json content/
+          cp run_radar.py content/
+          cp web_hits_TEMPLATE.json content/
+
+      - name: Build JupyterLite site
+        run: |
+          jupyter lite build --contents content --output-dir dist
+          touch dist/.nojekyll
+          test -f dist/index.html
+          test -f dist/lab/index.html
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
